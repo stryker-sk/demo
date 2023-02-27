@@ -19,6 +19,6 @@ class AuditModelMixin(models.Model):
         blank=True,
         null=True,
     )
-    
+
     class Meta:
         abstract = True
