@@ -5,6 +5,7 @@ logger = logging.getLogger(__name__)
 
 
 def hello_world(name: str):
+    """Trigger GHA change"""
     logger.debug('Input name: %s', name)
     print(f'Hello {name}')
 
