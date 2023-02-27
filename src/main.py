@@ -14,3 +14,7 @@ def read_json(file_name: str):
         data = json.load(f)
     
     print(data)
+
+
+def foo_bar():
+    logger.error('You have been foo bar')
